@@ -4,22 +4,77 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
+    position: relative;
     display: flex;
 }
 
 .sidebar{
+    position: sticky;
     padding: 20px;
     background-color: blanchedalmond;
+    width:15%
 
 }
 
 .main{
-    padding: 20px;
-    background-color: aqua;
+    width: 85%;
+    margin: 20px;
+}
+#noah{
+    background-color: rgb(205, 199, 199);
+    font-weight: 200;
+    border-bottom:solid;
+}
+#intro{
+    height: 100vh;
 }
 img{
     border-radius: 5rem;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    
+}
+#noah, ul{
+    position: fixed;
 }
 li{
     list-style:none;
+}
+i{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    font-color: rgb(133, 121, 121);
+}
+
+div{
+    padding: 2px
+}
+#about, #experience, #projects, #education, #blog{
+    padding: 10px;
+    border: 5px;
+    border-style: outset;
+    background-color: azure;
+}
+#title{
+    padding: none;
+    margin-left: none;
+    background-color: aqua;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 150%;
+}
+span{
+    text-decoration: underline;
+    text-underline-offset: 10px;
 }
